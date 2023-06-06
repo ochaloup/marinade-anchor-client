@@ -1,6 +1,14 @@
 [package]
 name = "validator-manager"
+description = "CLI utils for Marinade validator manager bot"
+repository = "https://github.com/marinade-finance/validator-manager"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "validator-manager"
+path = "src/main.rs"
+
 [dependencies]
+anchor-client = "0.27.0"
+marinade-finance = { git = "https://github.com/marinade-finance/liquid-staking-program.git", branch = "anchor-0.27", features = ["no-entrypoint"] } # rev: ac178f2d
