@@ -12,7 +12,7 @@ fn main() {
     let cluster_url = if args.len() > 1 {
         args[1].as_str()
     } else {
-        "mainnet-beta"
+        "mainnet"
     };
 
     let anchor_cluster = Cluster::from_str(&cluster_url).unwrap_or_else(|_| {
