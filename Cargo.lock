@@ -1769,6 +1769,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "518ef76f2f87365916b142844c16d8fefd85039bc5699050210a7778ee1cd1de"
 
 [[package]]
+name = "marinade-anchor-client"
+version = "0.1.0"
+dependencies = [
+ "anchor-client",
+ "marinade-finance",
+]
+
+[[package]]
 name = "marinade-finance"
 version = "0.1.0"
 source = "git+https://github.com/marinade-finance/liquid-staking-program.git?branch=anchor-0.27#ac178f2d04c8058b9d34f30349fa7861957ab36d"
@@ -3995,14 +4003,6 @@ name = "utf-8"
 version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "09cc8ee72d2a9becf2f2febe0205bbed8fc6615b7cb429ad062dc7b7ddd036a9"
-
-[[package]]
-name = "validator-manager"
-version = "0.1.0"
-dependencies = [
- "anchor-client",
- "marinade-finance",
-]
 
 [[package]]
 name = "vec_map"

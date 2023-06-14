@@ -1,7 +1,8 @@
 # anchor-client call to Marinade state
 
-With refactoring work on the Marinade liquid-staking-program, the anchor-client calls
+With refactoring work on the Marinade liquid-staking-program, the `anchor-client` calls
 are possible as the anchor version was updated to 0.27.0.
+See work in progressa at branch: https://github.com/marinade-finance/liquid-staking-program/tree/anchor-0.27
 
 ## To build&run
 
@@ -17,7 +18,7 @@ cargo run -- devnet
 When the new Solana version (like `1.16.0`)
 is downloaded as dependency instead of the predefined `1.14.18`
 then the build of `anchor-lang` fails with the following error
-(maybe connected to https://stackoverflow.com/q/76213582
+(maybe connected to https://stackoverflow.com/q/76213582).
 
 ```
 error[E0277]: the trait bound `Pubkey: BorshDeserialize` is not satisfied

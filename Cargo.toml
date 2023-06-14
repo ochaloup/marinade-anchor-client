@@ -1,12 +1,12 @@
 [package]
-name = "validator-manager"
-description = "CLI utils for Marinade validator manager bot"
+name = "marinade-anchor-client"
+description = "CLI example of getting Marinade state with anchor-client"
 repository = "https://github.com/marinade-finance/validator-manager"
 version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "validator-manager"
+name = "marinade-anchor-client"
 path = "src/main.rs"
 
 [dependencies]
