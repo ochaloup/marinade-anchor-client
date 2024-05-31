@@ -10,5 +10,7 @@ name = "marinade-anchor-client"
 path = "src/main.rs"
 
 [dependencies]
-anchor-client = "0.27.0"
-marinade-finance = { git = "https://github.com/marinade-finance/liquid-staking-program.git", branch = "anchor-0.27", features = ["no-entrypoint"] } # rev: ac178f2d
+anchor-client = "0.29.0"
+anchor-spl = "0.29.0"
+marinade-finance = { git = "https://github.com/marinade-finance/liquid-staking-program.git", branch = "anchor-0.29", features = ["no-entrypoint"] }
+anyhow = "1.0.40"
